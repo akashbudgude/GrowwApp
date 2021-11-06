@@ -16,6 +16,8 @@ public class Base {
 		return driver;
 	}
 		
+	
+	
 		public static WebDriver openFireFoxBrowser() {
 			System.setProperty("webdriver.gecko.driver","/Users/ganesh/Downloads/gekodriver");
 			WebDriver driver = new FirefoxDriver();
