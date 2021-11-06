@@ -13,6 +13,7 @@ public class Logout {
 	private WebElement logout; 
 	
 	public Logout(WebDriver driver) {
+		
 		PageFactory.initElements(driver, this);
 	}
 	
