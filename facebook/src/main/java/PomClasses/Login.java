@@ -18,7 +18,11 @@ public class Login {
 
 	public Login(WebDriver driver) {
 		
+		
+		
 		PageFactory.initElements(driver, this);
+		
+		
 	}
 
 	public void sendUsername() {
