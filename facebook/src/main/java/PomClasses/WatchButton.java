@@ -18,8 +18,7 @@ public class WatchButton {
 	private WebElement Home;
 	
 	
-	
-	
+
 	public WatchButton(WebDriver driver)
 	{
 		this.driver =driver;
